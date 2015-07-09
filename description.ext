@@ -1,0 +1,423 @@
+class MissionDefault 
+{ 
+lives = -1; 
+
+lost = ; 
+end1 = ; 
+end2 = ; 
+end3 = ; 
+end4 = ; 
+end5 = ; 
+end6 = ; 
+}; 
+
+
+
+class Campaign
+{
+	name = "PMC Fury";
+	firstBattle = Prologue;
+	
+
+	class Prologue
+	{
+		name = "PROLOGUE";
+		
+		cutscene = _00_pmcfury_intro.Eden;
+
+		firstMission = _01_shark_eyes;
+		end1 = ;
+		end2 = ;
+		end3 = ;
+		end4 = ;
+		end5 = ;
+		end6 = ;
+		lost = ;
+
+                class snake_xeu01_leisure.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu02_lizard_tooth.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu01_leisure.pmc_euro;
+                        template = snake_xeu01_leisure.pmc_euro;
+                };
+                class snake_xeu02_lizard_tooth.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu02a_cutscene1.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu02_lizard_tooth.pmc_euro;
+                        template = snake_xeu02_lizard_tooth.pmc_euro;
+                };
+                class snake_xeu02a_cutscene1.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu03_ocean_breeze.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu02a_cutscene1.pmc_euro;
+                        template = snake_xeu02a_cutscene1.pmc_euro;
+                };
+                class snake_xeu03_ocean_breeze.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu04_black_shepherd.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu03_ocean_breeze.pmc_euro;
+                        template = snake_xeu03_ocean_breeze.pmc_euro;
+                };
+                class snake_xeu04_black_shepherd.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu05_ninjas_song.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu04_black_shepherd.PMC_Euro;
+                        template = snake_xeu04_black_shepherd.PMC_Euro;
+                };
+                class snake_xeu05_ninjas_song.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu06_blue_eyes.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu05_ninjas_song.PMC_Euro;
+                        template = snake_xeu05_ninjas_song.PMC_Euro;
+                };
+                class snake_xeu06_blue_eyes.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu07_knight_blade.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu06_blue_eyes.PMC_Euro;
+                        template = snake_xeu06_blue_eyes.PMC_Euro;
+                };
+                class snake_xeu07_knight_blade.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu08_hornet_spike.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu07_knight_blade.pmc_euro;
+                        template = snake_xeu07_knight_blade.pmc_euro;
+                };
+                class snake_xeu08_hornet_spike.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu09_hungry_bear.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu08_hornet_spike.pmc_euro;
+                        template = snake_xeu08_hornet_spike.pmc_euro;
+                };
+                class snake_xeu09_hungry_bear.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu10_ghost_cross.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu09_hungry_bear.pmc_euro;
+                        template = snake_xeu09_hungry_bear.pmc_euro;
+                };
+                class snake_xeu10_ghost_cross.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu11_shiny_black.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu10_ghost_cross.pmc_euro;
+                        template = snake_xeu10_ghost_cross.pmc_euro;
+                };
+                class snake_xeu11_shiny_black.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu12_ocean_gate.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu11_shiny_black.pmc_euro;
+                        template = snake_xeu11_shiny_black.pmc_euro;
+                };
+                class snake_xeu12_ocean_gate.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu13_hawk_nest.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu12_ocean_gate.pmc_euro;
+                        template = snake_xeu12_ocean_gate.pmc_euro;
+                };
+                class snake_xeu13_hawk_nest.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu14_silver_string.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu13_hawk_nest.PMC_Euro;
+                        template = snake_xeu13_hawk_nest.PMC_Euro;
+                };
+                class snake_xeu14_silver_string.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu15_red_anger.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu14_silver_string.PMC_Euro;
+                        template = snake_xeu14_silver_string.PMC_Euro;
+                };
+                class snake_xeu15_red_anger.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu16_night_eagle.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu15_red_anger.pmc_euro;
+                        template = snake_xeu15_red_anger.pmc_euro;
+                };
+                class snake_xeu16_night_eagle.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu17_eagle_point.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu16_night_eagle.pmc_euro;
+                        template = snake_xeu16_night_eagle.pmc_euro;
+                };
+                class snake_xeu17_eagle_point.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu18_mother_eagle.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu17_eagle_point.pmc_euro;
+                        template = snake_xeu17_eagle_point.pmc_euro;
+                };
+                class snake_xeu18_mother_eagle.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu19_eagle_strike.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu18_mother_eagle.pmc_euro;
+                        template = snake_xeu18_mother_eagle.pmc_euro;
+                };
+                class snake_xeu19_eagle_strike.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu20_storm_beach.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu19_eagle_strike.pmc_euro;
+                        template = snake_xeu19_eagle_strike.pmc_euro;
+                };
+                class snake_xeu20_storm_beach.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu21_dark_crown.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu20_storm_beach.PMC_Euro;
+                        template = snake_xeu20_storm_beach.PMC_Euro;
+                };
+                class snake_xeu21_dark_crown.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu22_shiny_jewel.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu21_dark_crown.pmc_euro;
+                        template = snake_xeu21_dark_crown.pmc_euro;
+                };
+                class snake_xeu22_shiny_jewel.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu23_copper_shell.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu22_shiny_jewel.pmc_euro;
+                        template = snake_xeu22_shiny_jewel.pmc_euro;
+                };
+                class snake_xeu23_copper_shell.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu24_green_sabre.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu23_copper_shell.pmc_euro;
+                        template = snake_xeu23_copper_shell.pmc_euro;
+                };
+                class snake_xeu24_green_sabre.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu25_gold_shield.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu24_green_sabre.PMC_Euro;
+                        template = snake_xeu24_green_sabre.PMC_Euro;
+                };
+                class snake_xeu25_gold_shield.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu26_beggar_beach.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu25_gold_shield.pmc_euro;
+                        template = snake_xeu25_gold_shield.pmc_euro;
+                };
+                class snake_xeu26_beggar_beach.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu27_black_bat.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu26_beggar_beach.pmc_euro;
+                        template = snake_xeu26_beggar_beach.pmc_euro;
+                };
+                class snake_xeu27_black_bat.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu28_tired_bear.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu27_black_bat.PMC_Euro;
+                        template = snake_xeu27_black_bat.PMC_Euro;
+                };
+                class snake_xeu28_tired_bear.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu29_steel_arrow.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu28_tired_bear.PMC_Euro;
+                        template = snake_xeu28_tired_bear.PMC_Euro;
+                };
+                class snake_xeu29_steel_arrow.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu30_red_blood.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu29_steel_arrow.pmc_euro;
+                        template = snake_xeu29_steel_arrow.pmc_euro;
+                };
+                class snake_xeu30_red_blood.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu31_grey_lions.pmc_euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu30_red_blood.PMC_Euro;
+                        template = snake_xeu30_red_blood.PMC_Euro;
+                };
+                class snake_xeu31_grey_lions.pmc_euro: MissionDefault
+                {
+                        end1 = snake_xeu32_lion_cave.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu31_grey_lions.pmc_euro;
+                        template = snake_xeu31_grey_lions.pmc_euro;
+                };
+                class snake_xeu32_lion_cave.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu33_night_warrior.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu32_lion_cave.PMC_Euro;
+                        template = snake_xeu32_lion_cave.PMC_Euro;
+                };
+                class snake_xeu33_night_warrior.PMC_Euro: MissionDefault
+                {
+                        end1 = snake_xeu34_star_response.PMC_Euro;
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu33_night_warrior.PMC_Euro;
+                        template = snake_xeu33_night_warrior.PMC_Euro;
+                };
+                class snake_xeu34_star_response.PMC_Euro: MissionDefault
+                {
+                        end1 = (null);
+                        end2 = ;
+                        end3 = ;
+                        end4 = ;
+                        end5 = ;
+                        end6 = ;
+                        lost = snake_xeu34_star_response.PMC_Euro;
+                        template = snake_xeu34_star_response.PMC_Euro;
+                };
+	};	
+};

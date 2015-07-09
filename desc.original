@@ -1,0 +1,39 @@
+class MissionDefault 
+{ 
+lives = -1; 
+
+lost = ; 
+end1 = ; 
+end2 = ; 
+end3 = ; 
+end4 = ; 
+end5 = ; 
+end6 = ; 
+}; 
+
+
+
+class Campaign
+{
+	name = "PMC Fury";
+	firstBattle = Prologue;
+	
+
+	class Prologue
+	{
+		name = "PROLOGUE";
+		
+		cutscene = _00_pmcfury_intro.Eden;
+
+		firstMission = _01_shark_eyes;
+		end1 = ;
+		end2 = ;
+		end3 = ;
+		end4 = ;
+		end5 = ;
+		end6 = ;
+		lost = ;
+
+<INSERT_MISSIONS_HERE_STUPID>
+	};	
+};
